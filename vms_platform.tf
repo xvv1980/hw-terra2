@@ -6,7 +6,7 @@ variable "vm_web_platform" {
  #     name = "netology-develop-platform-web"  Формируется через local-переменные
       platform_id = "standard-v1"
       preemptible = true
-      nat = true
+      nat = false
       }
  }
 
@@ -17,7 +17,7 @@ variable "vm_db_platform" {
 #      name = "netology-develop-platform-db"  Формируется через local-переменные
       platform_id = "standard-v1"
       preemptible = true
-      nat = true
+      nat = false
       }
  }
 
